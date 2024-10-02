@@ -1,0 +1,28 @@
+.upper-part {
+  width: 100%;
+  overflow: hidden;
+}
+
+.image1, .image2 {
+  width: 30%;
+  float: left;
+}
+
+.image1 img, .image2 img {
+  width: 100%;
+  height: auto;
+}
+
+.text1, .text2 {
+  width: 70%;
+  float: right;
+}
+
+.text2 {
+  text-align: center;
+}
+
+.text3 {
+  width: 70%;
+  float: left;
+}
