@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-part {
+  display: flex;
+  overflow: hidden;
+}
+
+.texts-from-upper-part {
+  display: flex;
+  flex-direction: column;
+  flex: 2.3;
+}
+
+.image1 {
+  flex: 1;
+}
+
+.image2 {
+  flex: 1;
+  align-self: flex-end;
+}
+
+.text2 {
+  text-align: center;
+}
+
+.text3 {
+  flex: 2.3
+}
+
+.lower-part {
+  display: flex;
+  flex-direction: row;
+}
+
+.image1 img, .image2 img {
+  width: 100%;
+  height: auto;
+}
